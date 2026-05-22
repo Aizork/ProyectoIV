@@ -1,4 +1,125 @@
-const products=[{name:"Manzanas orgánicas",price:45,category:"Alimentos",img:"https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=500"},{name:"Miel artesanal",price:120,category:"Alimentos",img:"https://images.unsplash.com/photo-1587049352851-8d4e8913d179?w=500"},{name:"Café de grano",price:150,category:"Alimentos",img:"https://images.unsplash.com/photo-1511537632536-b82c2377f883?w=500"},{name:"Té verde matcha",price:190,category:"Alimentos",img:"https://images.unsplash.com/photo-1582793988951-9aed5509eb97?w=500"},{name:"Granola casera",price:90,category:"Alimentos",img:"https://images.unsplash.com/photo-1517260739337-6799d2df8087?w=500"},{name:"Pan integral",price:55,category:"Alimentos",img:"https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500"},{name:"Avena orgánica",price:30,category:"Alimentos",img:"https://images.unsplash.com/photo-1586201375761-83865001e31c?w=500"},{name:"Jugo verde",price:40,category:"Alimentos",img:"https://images.unsplash.com/photo-1623690666687-93e18a0980c0?w=500"},{name:"Jabón artesanal",price:80,category:"Cuidado personal",img:"https://images.unsplash.com/photo-1600857062241-98e5dba7f214?w=500"},{name:"Cepillo de bambú",price:35,category:"Cuidado personal",img:"https://images.unsplash.com/photo-1607613009820-a29f7bb6dc2d?w=500"},{name:"Shampoo sólido",price:85,category:"Cuidado personal",img:"https://images.unsplash.com/photo-1628102491629-778571d893a3?w=500"},{name:"Aceite de coco",price:95,category:"Cuidado personal",img:"https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500"},{name:"Bolsa ecológica",price:60,category:"Hogar",img:"https://images.unsplash.com/photo-1597484662317-c9253e60254c?w=500"},{name:"Vela de soya",price:110,category:"Hogar",img:"https://images.unsplash.com/photo-1602607147492-4112658d55a2?w=500"},{name:"Plantas aromáticas",price:50,category:"Hogar",img:"https://images.unsplash.com/photo-1616629916666-412f10b7a863?w=500"},{name:"Leche de almendras",price:45,category:"Alimentos",img:"https://images.unsplash.com/photo-1600788886242-5c96aabe3757?w=500"},{name:"Crema de cacahuate",price:75,category:"Alimentos",img:"https://images.unsplash.com/photo-1621259023473-b67db3c57a2f?w=500"},{name:"Tomates cherry",price:35,category:"Alimentos",img:"https://images.unsplash.com/photo-1592924357228-91a4daadcfea?w=500"},{name:"Bolsa de tela premium",price:95,category:"Hogar",img:"https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?w=500"},{name:"Kit zero waste",price:210,category:"Hogar",img:"https://images.unsplash.com/photo-1604187351574-c75ca79f5807?w=500"}];
+const products = [
+  {
+    name: "Manzanas orgánicas",
+    price: 45,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Red_Apple.jpg"
+  },
+  {
+    name: "Miel artesanal",
+    price: 120,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Honey_jar_(411317929).jpg"
+  },
+  {
+    name: "Café de grano",
+    price: 150,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Roasted_coffee_beans.jpg"
+  },
+  {
+    name: "Té verde matcha",
+    price: 190,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Matcha_powder.jpg"
+  },
+  {
+    name: "Granola casera",
+    price: 90,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Crunchy_Granola_(4623394272).jpg"
+  },
+  {
+    name: "Pan integral",
+    price: 55,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Whole_Wheat_Bread_01.jpg"
+  },
+  {
+    name: "Avena orgánica",
+    price: 30,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Rolled_oats_in_bowl_2.jpg"
+  },
+  {
+    name: "Jugo verde",
+    price: 40,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Green_Smoothie_(3652108873).jpg"
+  },
+  {
+    name: "Jabón artesanal",
+    price: 80,
+    category: "Cuidado personal",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Handmade_soap.jpg"
+  },
+  {
+    name: "Cepillo de bambú",
+    price: 35,
+    category: "Cuidado personal",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Humble_Brush.jpg"
+  },
+  {
+    name: "Shampoo sólido",
+    price: 85,
+    category: "Cuidado personal",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Lush_shampoo_bar.jpg"
+  },
+  {
+    name: "Aceite de coco",
+    price: 95,
+    category: "Cuidado personal",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Coconut_Oil_amp_30050.jpg"
+  },
+  {
+    name: "Bolsa ecológica",
+    price: 60,
+    category: "Hogar",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Totebag.jpg"
+  },
+  {
+    name: "Vela de soya",
+    price: 110,
+    category: "Hogar",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Single_plain_soy_candle.jpg"
+  },
+  {
+    name: "Plantas aromáticas",
+    price: 50,
+    category: "Hogar",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Basil_plant_in_a_pot_01.jpg"
+  },
+  {
+    name: "Leche de almendras",
+    price: 45,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Raw_almond_milk.jpg"
+  },
+  {
+    name: "Crema de cacahuate",
+    price: 75,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/PeanutButter.jpg"
+  },
+  {
+    name: "Tomates cherry",
+    price: 35,
+    category: "Alimentos",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Cherry-Tomatoes-in-Pack.jpg"
+  },
+  {
+    name: "Bolsa de tela premium",
+    price: 95,
+    category: "Hogar",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Tote_bag.jpg"
+  },
+  {
+    name: "Kit zero waste",
+    price: 210,
+    category: "Hogar",
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo_made_tools,_Srimongol.jpg"
+  }
+];
 const menuToggle=document.getElementById('menuToggle'),navLinks=document.getElementById('navLinks');if(menuToggle&&navLinks)menuToggle.addEventListener('click',()=>navLinks.classList.toggle('active'));
 function renderProducts(items){const grid=document.getElementById('productGrid');if(!grid)return;grid.innerHTML='';if(!items.length){grid.innerHTML='<p>No se encontraron productos.</p>';return}items.forEach(p=>{const card=document.createElement('article');card.className='product-card';card.innerHTML=`<img src="${p.img}" alt="${p.name}"><div class="product-info"><p class="product-category">${p.category}</p><h3>${p.name}</h3><p class="product-price">$${p.price}.00</p><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div><button class="btn btn-primary" onclick="addProduct('${p.name}')">Agregar al carrito</button></div>`;grid.appendChild(card)})}
 function filterProducts(){const s=document.getElementById('searchInput'),c=document.getElementById('categoryFilter');if(!s||!c)return;const text=s.value.toLowerCase(),cat=c.value;renderProducts(products.filter(p=>p.name.toLowerCase().includes(text)&&(cat==='Todos'||p.category===cat)))}
