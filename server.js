@@ -6,6 +6,9 @@ const OpenAI = require("openai");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Cliente de OpenAI.
+// No se pone la API Key directo en el código.
+// La toma desde Railway en la variable OPENAI_API_KEY.
 let openai = null;
 
 if (process.env.OPENAI_API_KEY) {
@@ -185,10 +188,10 @@ app.post("/api/chat", async (req, res) => {
       });
     }
 
-    if (!process.env.OPENAI_API_KEY) {
+    if (!openai) {
       return res.status(500).json({
         ok: false,
-        message: "No está configurada la API Key de OpenAI."
+        message: "No está configurada la API Key de OpenAI en Railway."
       });
     }
 
