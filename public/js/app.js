@@ -9,7 +9,7 @@ const products = [
     name: "Miel artesanal",
     price: 120,
     category: "Alimentos",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Honey.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Honey_jar_(411317929).jpg"
   },
   {
     name: "Café de grano",
@@ -21,31 +21,31 @@ const products = [
     name: "Té verde matcha",
     price: 190,
     category: "Alimentos",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Matcha_tea_powder.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Matcha_powder.jpg"
   },
   {
     name: "Granola casera",
     price: 90,
     category: "Alimentos",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Granola.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Crunchy_Granola_(4623394272).jpg"
   },
   {
     name: "Pan integral",
     price: 55,
     category: "Alimentos",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Whole_wheat_bread.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Whole_Wheat_Bread_01.jpg"
   },
   {
     name: "Avena orgánica",
     price: 30,
     category: "Alimentos",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Rolled_oats.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Rolled_oats_in_bowl_2.jpg"
   },
   {
     name: "Jugo verde",
     price: 40,
     category: "Alimentos",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Green_smoothie.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Green_Smoothie_(3652108873).jpg"
   },
   {
     name: "Jabón artesanal",
@@ -57,43 +57,43 @@ const products = [
     name: "Cepillo de bambú",
     price: 35,
     category: "Cuidado personal",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo_toothbrush.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Humble_Brush.jpg"
   },
   {
     name: "Shampoo sólido",
     price: 85,
     category: "Cuidado personal",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Shampoo_bar.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Lush_shampoo_bar.jpg"
   },
   {
     name: "Aceite de coco",
     price: 95,
     category: "Cuidado personal",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Coconut_oil.JPG"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Coconut_Oil_amp_30050.jpg"
   },
   {
     name: "Bolsa ecológica",
     price: 60,
     category: "Hogar",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Tote_bag.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Totebag.jpg"
   },
   {
     name: "Vela de soya",
     price: 110,
     category: "Hogar",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Candle.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Single_plain_soy_candle.jpg"
   },
   {
     name: "Plantas aromáticas",
     price: 50,
     category: "Hogar",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Basil-Basilico-Ocimum_basilicum-albahaca.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Basil_plant_in_a_pot_01.jpg"
   },
   {
     name: "Leche de almendras",
     price: 45,
     category: "Alimentos",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Almond_milk.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Raw_almond_milk.jpg"
   },
   {
     name: "Crema de cacahuate",
@@ -105,7 +105,7 @@ const products = [
     name: "Tomates cherry",
     price: 35,
     category: "Alimentos",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Cherry_tomatoes.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Cherry-Tomatoes-in-Pack.jpg"
   },
   {
     name: "Bolsa de tela premium",
@@ -117,7 +117,7 @@ const products = [
     name: "Kit zero waste",
     price: 210,
     category: "Hogar",
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo_made_tools%2C_Srimongol.jpg"
+    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo_made_tools,_Srimongol.jpg"
   }
 ];
 
