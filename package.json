@@ -1,0 +1,14 @@
+{
+  "name": "ecomarket-proyecto-iv-ia",
+  "version": "1.0.0",
+  "description": "EcoMarket Proyecto IV con chat IA, foro y panel admin",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3",
+    "openai": "^4.80.0"
+  }
+}
