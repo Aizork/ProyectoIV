@@ -1,26 +1,126 @@
 const products = [
-  { name: "Manzanas orgánicas", price: 45, category: "Alimentos", img: "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?w=500&auto=format&fit=crop" },
-  { name: "Miel artesanal", price: 120, category: "Alimentos", img: "https://images.unsplash.com/photo-1587049352851-8d4e8913d179?w=500&auto=format&fit=crop" },
-  { name: "Café de grano", price: 150, category: "Alimentos", img: "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=500&auto=format&fit=crop" },
-  { name: "Té verde matcha", price: 190, category: "Alimentos", img: "https://images.unsplash.com/photo-1582793988951-9aed5509eb97?w=500&auto=format&fit=crop" },
-  { name: "Granola casera", price: 90, category: "Alimentos", img: "https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?w=500&auto=format&fit=crop" },
-  { name: "Pan integral", price: 55, category: "Alimentos", img: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&auto=format&fit=crop" },
-  { name: "Avena orgánica", price: 30, category: "Alimentos", img: "https://images.unsplash.com/photo-1614961233913-a5113a4a34ed?w=500&auto=format&fit=crop" },
-  { name: "Jugo verde", price: 40, category: "Alimentos", img: "https://images.unsplash.com/photo-1613478223719-2ab802602423?w=500&auto=format&fit=crop" },
+  {
+    name: "Manzanas orgánicas",
+    price: 45,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg"
+  },
+  {
+    name: "Miel artesanal",
+    price: 120,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/162712/honey-jar-honey-food-sweet-162712.jpeg"
+  },
+  {
+    name: "Café de grano",
+    price: 150,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg"
+  },
+  {
+    name: "Té verde matcha",
+    price: 190,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/5946973/pexels-photo-5946973.jpeg"
+  },
+  {
+    name: "Granola casera",
+    price: 90,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg"
+  },
+  {
+    name: "Pan integral",
+    price: 55,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg"
+  },
+  {
+    name: "Avena orgánica",
+    price: 30,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/8105030/pexels-photo-8105030.jpeg"
+  },
+  {
+    name: "Jugo verde",
+    price: 40,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/775032/pexels-photo-775032.jpeg"
+  },
 
-  { name: "Jabón artesanal", price: 80, category: "Cuidado personal", img: "https://images.unsplash.com/photo-1607006483224-7f7977443e7c?w=500&auto=format&fit=crop" },
-  { name: "Cepillo de bambú", price: 35, category: "Cuidado personal", img: "https://images.unsplash.com/photo-1607613009820-a29f7bb6dc2d?w=500&auto=format&fit=crop" },
-  { name: "Shampoo sólido", price: 85, category: "Cuidado personal", img: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&auto=format&fit=crop" },
-  { name: "Aceite de coco", price: 95, category: "Cuidado personal", img: "https://images.unsplash.com/photo-1590080874088-eec64895b423?w=500&auto=format&fit=crop" },
+  {
+    name: "Jabón artesanal",
+    price: 80,
+    category: "Cuidado personal",
+    img: "https://images.pexels.com/photos/4210376/pexels-photo-4210376.jpeg"
+  },
+  {
+    name: "Cepillo de bambú",
+    price: 35,
+    category: "Cuidado personal",
+    img: "https://images.pexels.com/photos/6621461/pexels-photo-6621461.jpeg"
+  },
+  {
+    name: "Shampoo sólido",
+    price: 85,
+    category: "Cuidado personal",
+    img: "https://images.pexels.com/photos/3737600/pexels-photo-3737600.jpeg"
+  },
+  {
+    name: "Aceite de coco",
+    price: 95,
+    category: "Cuidado personal",
+    img: "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg"
+  },
 
-  { name: "Bolsa ecológica", price: 60, category: "Hogar", img: "https://images.unsplash.com/photo-1597484661643-2f5fef640dd1?w=500&auto=format&fit=crop" },
-  { name: "Vela de soya", price: 110, category: "Hogar", img: "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=500&auto=format&fit=crop" },
-  { name: "Plantas aromáticas", price: 50, category: "Hogar", img: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=500&auto=format&fit=crop" },
-  { name: "Leche de almendras", price: 45, category: "Alimentos", img: "https://images.unsplash.com/photo-1600788907416-456578634209?w=500&auto=format&fit=crop" },
-  { name: "Crema de cacahuate", price: 75, category: "Alimentos", img: "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=500&auto=format&fit=crop" },
-  { name: "Tomates cherry", price: 35, category: "Alimentos", img: "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=500&auto=format&fit=crop" },
-  { name: "Bolsa de tela premium", price: 95, category: "Hogar", img: "https://images.unsplash.com/photo-1597484662317-c9253e60254c?w=500&auto=format&fit=crop" },
-  { name: "Kit zero waste", price: 210, category: "Hogar", img: "https://images.unsplash.com/photo-1604187351574-c75ca79f5807?w=500&auto=format&fit=crop" }
+  {
+    name: "Bolsa ecológica",
+    price: 60,
+    category: "Hogar",
+    img: "https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg"
+  },
+  {
+    name: "Vela de soya",
+    price: 110,
+    category: "Hogar",
+    img: "https://images.pexels.com/photos/4207892/pexels-photo-4207892.jpeg"
+  },
+  {
+    name: "Plantas aromáticas",
+    price: 50,
+    category: "Hogar",
+    img: "https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg"
+  },
+  {
+    name: "Leche de almendras",
+    price: 45,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/3735190/pexels-photo-3735190.jpeg"
+  },
+  {
+    name: "Crema de cacahuate",
+    price: 75,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg"
+  },
+  {
+    name: "Tomates cherry",
+    price: 35,
+    category: "Alimentos",
+    img: "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg"
+  },
+  {
+    name: "Bolsa de tela premium",
+    price: 95,
+    category: "Hogar",
+    img: "https://images.pexels.com/photos/6347547/pexels-photo-6347547.jpeg"
+  },
+  {
+    name: "Kit zero waste",
+    price: 210,
+    category: "Hogar",
+    img: "https://images.pexels.com/photos/7262897/pexels-photo-7262897.jpeg"
+  }
 ];
 const menuToggle=document.getElementById('menuToggle'),navLinks=document.getElementById('navLinks');if(menuToggle&&navLinks)menuToggle.addEventListener('click',()=>navLinks.classList.toggle('active'));
 function renderProducts(items){const grid=document.getElementById('productGrid');if(!grid)return;grid.innerHTML='';if(!items.length){grid.innerHTML='<p>No se encontraron productos.</p>';return}items.forEach(p=>{const card=document.createElement('article');card.className='product-card';card.innerHTML=`<img src="${p.img}" alt="${p.name}"><div class="product-info"><p class="product-category">${p.category}</p><h3>${p.name}</h3><p class="product-price">$${p.price}.00</p><div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div><button class="btn btn-primary" onclick="addProduct('${p.name}')">Agregar al carrito</button></div>`;grid.appendChild(card)})}
