@@ -789,3 +789,40 @@ body {
 
   .chat-window { width: 290px; }
 }
+
+.rating-box {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(20, 83, 45, 0.08);
+}
+
+.rating-stars {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 1.2rem 0;
+}
+
+.rating-stars button {
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  color: #cbd5c0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rating-stars button.active,
+.rating-stars button:hover {
+  color: #facc15;
+  transform: scale(1.1);
+}
+
+.rating-message {
+  font-weight: bold;
+  color: #14532d;
+}
