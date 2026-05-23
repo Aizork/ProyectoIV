@@ -576,3 +576,35 @@ if (chatInput) {
     }
   });
 }
+const ratingButtons = document.querySelectorAll("#ratingStars button");
+const ratingMessage = document.getElementById("ratingMessage");
+
+ratingButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const value = Number(button.dataset.value);
+
+    ratingButtons.forEach((star) => {
+      const starValue = Number(star.dataset.value);
+      star.classList.toggle("active", starValue <= value);
+    });
+
+    if (ratingMessage) {
+      ratingMessage.textContent = `Gracias por calificar la página con ${value} estrella(s).`;
+    }
+
+    localStorage.setItem("ecoMarketRating", value);
+  });
+});
+
+const savedRating = localStorage.getItem("ecoMarketRating");
+
+if (savedRating && ratingButtons.length) {
+  ratingButtons.forEach((star) => {
+    const starValue = Number(star.dataset.value);
+    star.classList.toggle("active", starValue <= Number(savedRating));
+  });
+
+  if (ratingMessage) {
+    ratingMessage.textContent = `Ya calificaste la página con ${savedRating} estrella(s).`;
+  }
+}
